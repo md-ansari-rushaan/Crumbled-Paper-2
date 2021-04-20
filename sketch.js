@@ -36,7 +36,7 @@ function draw() {
     dustbinObj.display();
 	paper.display();
 	drawSprites();
-	if(keyDown("space")){
+	if(keyIsDown(UP_ARROW)){
 		fly();
 	}
 }
